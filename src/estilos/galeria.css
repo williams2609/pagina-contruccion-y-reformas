@@ -1,0 +1,14 @@
+.contenedor-proyectos-ref{
+    background-color: rgba(153, 132, 97, 0.596);
+    padding: 20px;
+}
+.w-100{
+    border-radius: 20px;
+    color: rgb(208, 212, 214);
+}
+.titulo{
+    color: rgb(230, 230, 230);
+    font-family: sans;
+    font-size: 2.7rem;
+   
+}

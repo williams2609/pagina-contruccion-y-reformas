@@ -1,0 +1,73 @@
+/* Archivo: navbar.css */
+
+.navbar-collapse {
+  transition: max-height 1s ease-in-out, opacity 1.2s ease-in-out; 
+  width: 100%;
+}
+
+.navbar-collapse.show {
+  max-height: 500px; 
+  opacity: 1; 
+}
+
+.navbar-collapse .nav-link {
+  transition: opacity 0.3s ease-in-out;
+}
+
+.navbar-collapse.show .nav-link {
+  opacity: 1; 
+}
+
+@media (min-width: 992px) { 
+  .navbar-collapse .nav-link {
+      opacity: 1; 
+  }
+  
+  .navbar-collapse {
+      max-height: none; 
+  }
+}
+
+.toggle-button {
+  background: transparent; 
+  border: none; 
+  color: black; 
+  font-size: 24px; 
+}
+
+.toggle-icon {
+  color: black; 
+  transition: color 0.3s; 
+}
+
+.toggle-icon.expanded {
+  color: black; 
+}
+
+.toggle-button:focus {
+  outline: none; 
+  border: none;
+}
+
+.contenedor-links {
+  justify-content: space-between;
+}
+
+.contenedor-link {
+  width: 100%;
+}
+
+.nav-link {
+  margin: 10px;
+  margin-right: 20px;
+}
+
+.contenedor-navbar {
+  padding: 10px;
+background-color: rgba(255, 250, 250, 0.719);
+  position: fixed;
+  z-index: 30;
+  right: 0;
+  top: 0;
+  left: 0;
+}

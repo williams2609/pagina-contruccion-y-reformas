@@ -1,0 +1,15 @@
+.imagen1-proyecto{
+    border-radius: 362px 830px 320px 620px;
+   
+}
+.seccion3-proyectos{
+    background-image: url(https://dical.es/modules/ph_simpleblog/covers/41.jpg);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: rgb(85, 83, 83);
+    font-family: sans;  
+    font-weight: bold;
+    
+}

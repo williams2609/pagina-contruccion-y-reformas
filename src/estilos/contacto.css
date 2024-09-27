@@ -1,0 +1,23 @@
+@media (max-height: 700px){
+    .seccion-contacto-home{
+        flex-direction: column;
+    }
+}
+.seccion-contacto {
+    background-image: url(https://img.pikbest.com/origin/09/70/03/87rpIkbEsT3YX.jpg!sw800);
+    min-height: 60vh; /* Cambiado a min-height para mayor flexibilidad */
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.5); /* Puedes ajustar la opacidad según sea necesario */
+    background-attachment: fixed;
+}
+
+/* Media query para mejorar el diseño en pantallas pequeñas */
+@media (max-width: 768px) {
+    .seccion-contacto {
+        min-height: 50vh; /* Ajusta la altura en pantallas pequeñas */
+    }
+}
+.seccion-color{
+    background-color: rgb(248, 248, 248);
+}

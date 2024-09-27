@@ -1,0 +1,117 @@
+.section{
+    background-image: url(../imagenes/Default_renovated_kitchen_2.jpg);
+    background-size: cover; /* Esto hará que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    height: 90vh; /* Ajusta la altura según sea necesario */
+    color: white; /* Color del texto para mejor visibilidad */
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    text-align: center;
+    flex-direction: column;
+    background-attachment: fixed; /* Esto permite el efecto de paralaje */
+
+}
+.parrafo-imagen{
+    font-size: 3rem;
+    font-family: Unna;
+    
+}
+.contenedor-parrafo{
+
+    text-align: start;
+}
+
+@media (max-width: 600px) {
+.parrafo-imagen{
+    font-size: 2rem;
+}
+}
+.contenedor-boton{
+    display: flex;
+    justify-content: start;
+    
+    margin-top: 50px;
+}
+.boton-ver-proyectos{
+    background-color: rgb(136, 103, 54);
+    border: 2px solid rgb(110, 84, 40);
+   
+}
+
+.boton-ver-proyectos:hover{
+        background-color: rgb(75, 53, 20);
+        border: 2px solid rgb(68, 50, 19);
+}
+
+.boton-ver-proyectos:active{
+    background-color: rgb(114, 83, 36);
+    box-shadow: none;
+    outline: none;
+}
+.boton-ver-proyectos:focus{
+    background-color: rgb(92, 67, 29);
+    box-shadow: none;
+}
+.imagen1{
+    max-width: 100%;
+    height: 50vh;
+}
+.contenedor-c{
+ margin-top: 100px;
+ height: 100%;
+}
+.imagen2{
+    margin-top: 30px;
+    width: 100%;
+}
+.btn-sn{
+    background-color: rgb(52, 94, 52);
+    color: white;
+    margin-top: 30px;
+    border-color:rgb(14, 80, 14) ;
+}
+.btn-sn:hover{
+    background-color: rgb(10, 41, 10);
+    color: white;
+}
+.contenedor-cont{
+    z-index: 29;
+    margin-top: 100px;
+}
+
+.imagen7{
+    max-height: 550px;
+   height: 100vh;
+    width: 100%;
+   object-fit:cover;
+}
+.contenedor-img{
+    overflow: hidden;
+}
+
+
+@media (max-width: 792px) { 
+    .contenedor-imagen1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .imagen1{
+      height: 100%;
+    }
+}
+.seccion-pt2{
+        background-size: cover; /* Esto hará que la imagen cubra todo el contenedor */
+        background-position: center; /* Centra la imagen */
+        height: 70vh; /* Ajusta la altura según sea necesario */
+        color: white; /* Color del texto para mejor visibilidad */
+        display: flex;
+        align-items: center; /* Centra verticalmente el contenido */
+        justify-content: center; /* Centra horizontalmente el contenido */
+        text-align: center;
+        flex-direction: column;
+        background-attachment: fixed; /* Esto permite el efecto de paralaje */
+      
+    
+}
