@@ -124,9 +124,9 @@ function Home() {
           <p style={{fontFamily:"sans-serif", fontSize:"0.8rem"}}>643-486-830</p>
           <p style={{fontFamily:"sans-serif", fontSize:"0.8rem"}}>info@reformas.cloud</p>
           <div className='mt-3'>
-          <i class="bi bi-facebook" style={{marginRight:"20px",marginLeft:"15px"}}></i>
-          <i class="bi bi-twitter" style={{marginRight:"20px"}}></i>
-          <i class="bi bi-instagram"></i>
+          <i className="bi bi-facebook" style={{marginRight:"20px",marginLeft:"15px"}}></i>
+          <i className="bi bi-twitter" style={{marginRight:"20px"}}></i>
+          <i className="bi bi-instagram"></i>
           </div>
       </div>
       <div className='col-12 col-md-7 mt-5'>
