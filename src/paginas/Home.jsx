@@ -18,7 +18,7 @@ function Home() {
     <div className='contenedor-home'>
       <section className='section'>
         <div className='container contenedor-parrafo'>
-          <p className='parrafo-imagen'>Crea un hogar que refleje a tu familia</p>
+          <p className='parrafo-imagen'>Crea un Hogar que refleje a tu familia</p>
         </div>
         <div className='contenedor-boton container'>
           <Button className='boton-ver-proyectos btn btn-secondary'>Ver Nuestros Proyectos</Button>
@@ -46,7 +46,7 @@ function Home() {
   </div>
 
 
-  <div className='row contenedor-img d-flex align-items-center justify-content-center'>
+  <div className='container row contenedor-img d-flex align-items-center justify-content-center'>
   <div className='col-7 col-lg-4 d-flex flex-column' style={{ height: "100vh", marginBottom:"20px"}}>
   <div className="d-flex" style={{ flex: "0 0 40%", width: "100%",marginTop:"10px" }}>
       <img src={imagen4} className="img-fluid" alt="Descripción de la imagen 4" style={{ marginTop: "20px", height:"100%", objectFit: "cover", width:"100%" }} />
