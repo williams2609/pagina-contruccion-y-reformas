@@ -32,7 +32,7 @@ function Home() {
     </div>
     <div className='col-12 col-md-7 text-start'>
       <h2 className='mb-3'>Sobre Nosotros</h2>
-      <p className='mb-5'>Nuestro equipo de expertos en diseño se asegura de que su hogar se vea y se sienta como usted.</p>
+      <p className='mb-5'>Nuestro equipo de expertos en Diseño se asegura de que su hogar se vea y se sienta como usted.</p>
       <button className='btn btn-sn mb-5'>Sobre Nosotros</button>
       <img src={imagen2} className='imagen2 img-fluid' alt="Descripción de la imagen 2" />
     </div>
